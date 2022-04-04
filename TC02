@@ -1,0 +1,19 @@
+public class B {
+	String str="java bdbdfgegegegetgw";    //Global variable
+	
+	String name="Java";
+	
+	public void m1() {
+		System.out.println("global variable in m1 "+str); 
+	}
+
+	public void m2() {
+		System.out.println("global variable in m2 "+str);
+	}
+	
+	public static void main(String[] args) {
+	B b = new B();
+	b.m1();
+	b.m2();
+	}
+}
